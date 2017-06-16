@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C6B65CA7FAA5ED1FF6D7EF3 /* libPods-Task Burner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F860082DA33EF1FD7EFC60A /* libPods-Task Burner.a */; };
 		A5DC8FB61EF466C40033DD82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC8FB51EF466C40033DD82 /* AppDelegate.swift */; };
 		A5DC8FB81EF466C40033DD82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC8FB71EF466C40033DD82 /* ViewController.swift */; };
 		A5DC8FBB1EF466C40033DD82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DC8FB91EF466C40033DD82 /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		A5DC8FC01EF466C40033DD82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DC8FBE1EF466C40033DD82 /* LaunchScreen.storyboard */; };
 		A5DC8FCB1EF466C40033DD82 /* Task_BurnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC8FCA1EF466C40033DD82 /* Task_BurnerTests.swift */; };
 		A5DC8FD61EF466C40033DD82 /* Task_BurnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC8FD51EF466C40033DD82 /* Task_BurnerUITests.swift */; };
+		A5DC8FE41EF46B5B0033DD82 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A5DC8FE31EF46B5B0033DD82 /* Podfile */; };
+		A5EB4E631EF46C3B00A1606E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5EB4E621EF46C3B00A1606E /* GoogleService-Info.plist */; };
+		A5EB4E661EF46FF000A1606E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB4E651EF46FF000A1606E /* MainViewController.swift */; };
+		A5EB4E681EF47C8900A1606E /* TaskTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB4E671EF47C8900A1606E /* TaskTableTableViewController.swift */; };
+		A5EB4E6A1EF47F8900A1606E /* TasksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB4E691EF47F8900A1606E /* TasksTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F860082DA33EF1FD7EFC60A /* libPods-Task Burner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Task Burner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E269CCD1039E5C23D0D38F8 /* Pods-Task Burner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task Burner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Task Burner/Pods-Task Burner.debug.xcconfig"; sourceTree = "<group>"; };
 		A5DC8FB21EF466C40033DD82 /* Task Burner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task Burner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DC8FB51EF466C40033DD82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5DC8FB71EF466C40033DD82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,13 @@
 		A5DC8FD11EF466C40033DD82 /* Task BurnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Task BurnerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DC8FD51EF466C40033DD82 /* Task_BurnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_BurnerUITests.swift; sourceTree = "<group>"; };
 		A5DC8FD71EF466C40033DD82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5DC8FE31EF46B5B0033DD82 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5EB4E621EF46C3B00A1606E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A5EB4E641EF46EA900A1606E /* Task Burner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Task Burner.entitlements"; sourceTree = "<group>"; };
+		A5EB4E651EF46FF000A1606E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A5EB4E671EF47C8900A1606E /* TaskTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableTableViewController.swift; sourceTree = "<group>"; };
+		A5EB4E691EF47F8900A1606E /* TasksTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksTableViewCell.swift; sourceTree = "<group>"; };
+		EBD1BAD2C0C2597A5EE1B9F5 /* Pods-Task Burner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task Burner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Task Burner/Pods-Task Burner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C6B65CA7FAA5ED1FF6D7EF3 /* libPods-Task Burner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D07FDD8755E80C497F56FDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F860082DA33EF1FD7EFC60A /* libPods-Task Burner.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A5DC8FA91EF466C40033DD82 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +105,8 @@
 				A5DC8FC91EF466C40033DD82 /* Task BurnerTests */,
 				A5DC8FD41EF466C40033DD82 /* Task BurnerUITests */,
 				A5DC8FB31EF466C40033DD82 /* Products */,
+				B482F0F6EA474A010F7C2D2F /* Pods */,
+				8D07FDD8755E80C497F56FDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +123,18 @@
 		A5DC8FB41EF466C40033DD82 /* Task Burner */ = {
 			isa = PBXGroup;
 			children = (
+				A5EB4E641EF46EA900A1606E /* Task Burner.entitlements */,
+				A5DC8FE31EF46B5B0033DD82 /* Podfile */,
+				A5EB4E621EF46C3B00A1606E /* GoogleService-Info.plist */,
 				A5DC8FB51EF466C40033DD82 /* AppDelegate.swift */,
 				A5DC8FB71EF466C40033DD82 /* ViewController.swift */,
 				A5DC8FB91EF466C40033DD82 /* Main.storyboard */,
+				A5EB4E651EF46FF000A1606E /* MainViewController.swift */,
 				A5DC8FBC1EF466C40033DD82 /* Assets.xcassets */,
 				A5DC8FBE1EF466C40033DD82 /* LaunchScreen.storyboard */,
 				A5DC8FC11EF466C40033DD82 /* Info.plist */,
+				A5EB4E671EF47C8900A1606E /* TaskTableTableViewController.swift */,
+				A5EB4E691EF47F8900A1606E /* TasksTableViewCell.swift */,
 			);
 			path = "Task Burner";
 			sourceTree = "<group>";
@@ -125,6 +157,15 @@
 			path = "Task BurnerUITests";
 			sourceTree = "<group>";
 		};
+		B482F0F6EA474A010F7C2D2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E269CCD1039E5C23D0D38F8 /* Pods-Task Burner.debug.xcconfig */,
+				EBD1BAD2C0C2597A5EE1B9F5 /* Pods-Task Burner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5DC8FDA1EF466C40033DD82 /* Build configuration list for PBXNativeTarget "Task Burner" */;
 			buildPhases = (
+				49D0BC011822668CA70EC8E5 /* [CP] Check Pods Manifest.lock */,
 				A5DC8FAE1EF466C40033DD82 /* Sources */,
 				A5DC8FAF1EF466C40033DD82 /* Frameworks */,
 				A5DC8FB01EF466C40033DD82 /* Resources */,
+				AB236B83ED0839BE94E7F9A9 /* [CP] Embed Pods Frameworks */,
+				036A8A0666E3311159489181 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +239,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 9N5P526RXZ;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					A5DC8FC51EF466C40033DD82 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -237,6 +286,8 @@
 			files = (
 				A5DC8FC01EF466C40033DD82 /* LaunchScreen.storyboard in Resources */,
 				A5DC8FBD1EF466C40033DD82 /* Assets.xcassets in Resources */,
+				A5EB4E631EF46C3B00A1606E /* GoogleService-Info.plist in Resources */,
+				A5DC8FE41EF46B5B0033DD82 /* Podfile in Resources */,
 				A5DC8FBB1EF466C40033DD82 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +308,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		036A8A0666E3311159489181 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Task Burner/Pods-Task Burner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49D0BC011822668CA70EC8E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB236B83ED0839BE94E7F9A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Task Burner/Pods-Task Burner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A5DC8FAE1EF466C40033DD82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5EB4E661EF46FF000A1606E /* MainViewController.swift in Sources */,
+				A5EB4E6A1EF47F8900A1606E /* TasksTableViewCell.swift in Sources */,
 				A5DC8FB81EF466C40033DD82 /* ViewController.swift in Sources */,
 				A5DC8FB61EF466C40033DD82 /* AppDelegate.swift in Sources */,
+				A5EB4E681EF47C8900A1606E /* TaskTableTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,8 +515,10 @@
 		};
 		A5DC8FDB1EF466C40033DD82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E269CCD1039E5C23D0D38F8 /* Pods-Task Burner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Task Burner/Task Burner.entitlements";
 				DEVELOPMENT_TEAM = 9N5P526RXZ;
 				INFOPLIST_FILE = "Task Burner/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -426,8 +530,10 @@
 		};
 		A5DC8FDC1EF466C40033DD82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBD1BAD2C0C2597A5EE1B9F5 /* Pods-Task Burner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Task Burner/Task Burner.entitlements";
 				DEVELOPMENT_TEAM = 9N5P526RXZ;
 				INFOPLIST_FILE = "Task Burner/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -514,6 +620,7 @@
 				A5DC8FDC1EF466C40033DD82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5DC8FDD1EF466C40033DD82 /* Build configuration list for PBXNativeTarget "Task BurnerTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +629,7 @@
 				A5DC8FDF1EF466C40033DD82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5DC8FE01EF466C40033DD82 /* Build configuration list for PBXNativeTarget "Task BurnerUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +638,7 @@
 				A5DC8FE21EF466C40033DD82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
